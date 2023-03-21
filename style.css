@@ -174,9 +174,12 @@ h1 {
 
 .third-content {
   margin-bottom: 70px;
+  
 }
 
-.third-content img {}
+.third-content img {
+  width: 100%;
+}
 
 .third-background {
   /*background: #FDECED;
