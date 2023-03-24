@@ -13,15 +13,27 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style-mobile.css">
+  <link rel="stylesheet" href="./css/style-desktop.css">
 </head>
 
 <body>
   <header>
     <img class="logo" src="./assets/logo.svg" alt="">
 
+    <div class="menu-desktop">
+
+      <a href="#">Home</a>
+      <a href="#">Sobre o app</a>
+      <a href="#">Animais disponíveis</a>
+      <a href="#">Sobre a FindFriend</a>
+      <a href="#">contato</a>
+
+    </div>
+
     <div class="menu-mobile">
-      <img src="./assets/menu.svg" alt="">
+      <img class="menu-open" src="./assets/menu.svg" alt="">
+      <img class="menu-close hide" src="./assets/close_menu.svg" alt="">
     </div>
   </header>
   <div class="menu-drop hide">
@@ -32,21 +44,30 @@
       <a href="#">Sobre a FindFriend</a>
       <a href="#">contato</a>
     </nav>
-   
+
   </div>
   <main>
     <div class="first-content">
-      <div class="friends">
-        <p class="friends-text"><span>324 amigos</span> na sua cidade</p>
+
+      <div class="first-text">
+        <div class="friends">
+          <img src="./assets/friends.svg" alt="">
+          <p class="friends-text"><span>324 amigos</span> na sua cidade</p>
+        </div>
+        <h1>Leve a felicidade para o seu lar</h1>
+        <p class="first-span">Encontre o animal de esimação ideal para seu estilo de vida!</p>
       </div>
 
-      <h1>Leve a felicidade para o seu lar</h1>
       <div class="carrosel-content">
         <div class="carrosel">
           <img src="./assets/dog.svg" alt="">
-          <div class="carrosel-button">
+          <div class="carrosel-buttonMobile">
             <button>Acesse agora</button>
           </div>
+
+        </div>
+        <div class="carrosel-buttonDesktop">
+          <button>Acesse agora</button>
         </div>
       </div>
 
@@ -56,35 +77,91 @@
       <h2 class="second-title">Um app não, uma caixinha de amigos...</h2>
 
       <div class="second-textBox">
-        <div class="textBox">
-          <img src="./assets/dog_second.svg" alt="">
-          <p>O <span>FindAFriend</span> é um produto desenvolvido para você encontrar o animal de estimação ideal ao seu
-            estilo de vida!</p>
+        <div class="second-textBoxGrid">
+          <div class="textBox">
+            <img src="./assets/dog_second.svg" alt="">
+            <p>O <span>FindAFriend</span> é um produto desenvolvido para você encontrar o animal de estimação ideal ao
+              seu
+              estilo de vida!</p>
+          </div>
+
+          <div class="textBox">
+            <img src="./assets/cat_second.svg" alt="">
+            <p><span>ONGs</span> cadastram os bichinhos disponíveis para adoção informando cacterísticas como: porte,
+              nível de energia, nível de independência, sociabilidade e gênero.</p>
+          </div>
+
+          <div class="textBox lastBox-desktop">
+            <img src="./assets/dogGide_second.svg" alt="">
+            <p><span>Filtre os bichinhos</span> de acordo com sua preferências e lyfestyle. Depois é só entrar em
+              contato
+              com a ONG para agendar uma visita e conhecer pessoalment seu <span>match perfeito!</span></p>
+          </div>
+
         </div>
 
-        <div class="textBox">
-          <img src="./assets/cat_second.svg" alt="">
-          <p><span>ONGs</span> cadastram os bichinhos disponíveis para adoção informando cacterísticas como: porte,
-            nível de energia, nível de independência, sociabilidade e gênero.</p>
+        <div class="second-boxDesktop">
+          <img src="./assets/map2.svg" alt="">
         </div>
-
-        <div class="textBox">
-          <img src="./assets/dogGide_second.svg" alt="">
-          <p><span>Filtre os bichinhos</span> de acordo com sua preferências e lyfestyle. Depois é só entrar em contato
-            com a ONG para agendar uma visita e conhecer pessoalment seu <span>match perfeito!</span></p>
-        </div>
-
       </div>
     </div>
 
-    <div class="third-content">
+    <div class="third-contentMobile">
       <div class="third-background">
         <img src="./assets/map.svg" alt="">
       </div>
     </div>
 
-  </main>
+    <div class="aLotOfFriends">
+      <div class="aLotOfFriends-content">
+        <h2>Há muitos amigos<br> esperando por você!</h2>
+        <p>O FiendAFriend conecta pessoas que estão procurando por um animal de estimação com animais que precisam de um
+          lar amoroso. É fácil de usar e você pode navegar por uma variedade de animais para encontrar aquele que melhor
+          se adapta ao seu estilo de vida e necessidades.</p>
+        <button>Acesse agora</button>
+        <div class="image-friends">
+          <img src="./assets/cat-hamilton.svg" alt="">
+          <span>Hamilton</span>
+        </div>
+      </div>
+    </div>
 
+    <div class="about">
+      <div class="about-content">
+        <h2>Sobre<br> a FindAFriend</h2>
+        <p class="about-text">A FindAFriend acredita que todo bichinho merece uma vida confortável e segura. Por isso,
+          cria soluções que
+          ajudam ONGs e entidades protetoras a conectar pessoas adotantes e animais resgatados. </p>
+      </div>
+
+      <div class="about-image">
+        <img src="./assets/person-hamilton.svg" alt="">
+
+        <div class="about-imageDescription">
+          <p>Hamilton Freire</p>
+          <span>Fundador</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <img class="contact-imageFrame" src="./assets/frame-contact.svg" alt="">
+      <div class="contact-info">
+        <h3>Entre <br> em contato <br> conosco</h3>
+        <a href=""><img src="./assets/letter.svg" alt="">Clique aqui e envie um email</a>
+      </div>  
+    </div>
+
+    <footer>
+      <img src="./assets/footer-logo.svg" alt="">
+      <div class="copyright">
+        <p>2023 ® FindAFriend</p>
+        </p> All rights reserved</p>
+      </div>
+    </footer>
+
+  </main>
+  <script src="main.js"></script>
 </body>
 
 </html>

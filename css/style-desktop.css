@@ -1,0 +1,168 @@
+@media (min-width: 1024px) {
+  .menu-mobile {
+    display: none;
+  }
+
+  header {
+    justify-content: space-around;
+    background: #F15156;
+  }
+
+  .menu-desktop {
+    display: flex;
+    gap: 62px;
+  }
+
+  .menu-desktop a {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 110%;
+    color: #FFFFFF;
+    opacity: 0.5;
+    transition: .3s ease;
+  }
+
+  .menu-desktop a:hover {
+    opacity: 100;
+  }
+
+  .first-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 72px;
+    line-height: 110%;
+    width: 519px;
+  }
+
+  .first-span {
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+    width: 407px;
+    margin-top: 81px;
+    padding-bottom: 222px;
+  }
+
+  .carrosel-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carrosel {
+    width: 592px;
+    height: 386px;
+    margin-bottom: 20px;
+  }
+
+  .carrosel img {
+    width: 406px;
+    height: 484px;
+    margin-bottom: 85px;
+  }
+
+  .carrosel-buttonMobile {
+    display: none;
+  }
+
+  .carrosel-buttonDesktop {
+    background: #E44449;
+    border-radius: 20px;
+    width: 592px;
+    height: 152px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carrosel-buttonDesktop button {
+    padding: 27px 200px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 15px;
+    color: #0D3B66;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 8.65854px;
+    cursor: pointer;
+    transition: .5s ease;
+  }
+
+  .carrosel-buttonDesktop button:hover {
+    zoom: 103%;
+  }
+
+  .second-content {
+    text-align: left;
+    padding-bottom: 70px;
+    margin: 0 auto;
+  }
+
+  .second-title {
+    margin-top: 140px;
+    margin-bottom: 80px;
+    margin-left: -420px;
+    width: auto;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    color: #0D3B66;
+  }
+
+  .second-textBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 140px;
+  }
+
+  .second-textBoxGrid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: "a b" "c c";
+    gap: 32px;
+  }
+
+  .textBox:nth-child(1) {
+    grid-area: a;
+  }
+
+  .textBox:nth-child(2) {
+    grid-area: b;
+  }
+
+  .textBox:nth-child(3) {
+    grid-area: c;
+  }
+
+  .textBox:nth-child(4) {
+    grid-area: d;
+  }
+
+  .lastBox-desktop {
+    width: 670px;
+  }
+
+  .second-boxDesktop {
+    display: block;
+    margin-left: 32px;
+  }
+
+  .third-contentMobile {
+    display: none;
+  }
+
+}
