@@ -125,7 +125,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 140px;
+    margin-bottom: 100px;
   }
 
   .second-textBoxGrid {
@@ -163,6 +163,141 @@
 
   .third-contentMobile {
     display: none;
+  }
+
+  .aLotOfFriends {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+  }
+
+  .aLotOfFriends-content {
+    width: 1216px;
+    height: 628px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-titleMobile {
+    display: none;
+  }
+
+  .about-titleDesktop {
+    display: block;
+  }
+
+  .about-title {
+    padding-right: 97px;
+  }
+
+  .aLotOfFriends-text h2 {
+    width: 416px;
+    font-size: 48px;
+    text-align: left;
+  }
+
+  .aLotOfFriends-content p {
+    width: 490px;
+    font-size: 20px;
+    line-height: 110%;
+  }
+
+  .aLotOfFriends-text {
+    display: flex;
+    align-items: center;
+    gap: 102px;
+  }
+
+  .aLotOfFriends-buttonAndCarrossel {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 280px;
+    margin-left: 100px;
+  }
+
+  .aLotOfFriends-buttonAndCarrossel button {
+    height: 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 19px;
+    padding: 28.33px 49.98px;
+    margin-bottom: 70px;
+  }
+
+  .swiper {
+    width: 600px;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-friends {
+    width: 384px;
+    height: 261px;
+  }
+
+  .image-friends img {
+    width: 384px;
+    height: 192px;
+  }
+
+  .about {
+    padding: 0 112px;
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .about-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    width: auto;
+  }
+
+  .about-content h2 {
+    font-size: 48px;
+    line-height: 90%;
+  }
+
+  .about-content h2 br {
+    display: none;
+  }
+
+  .about-content p {
+    width: 692px;
+  }
+
+  .about-person {
+    display: flex;
+    gap: 42px;
+  }
+
+  .contact {
+    margin-top: 140px;
+    width: 1231px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .contact h3 {
+    font-size: 48px;
+    line-height: 90%;
+  }
+
+  .contact-imageFrame {
+    width: 763.09px;
+    margin-top: -31.90px;
   }
 
 }

@@ -15,6 +15,7 @@
 
   <link rel="stylesheet" href="./css/style-mobile.css">
   <link rel="stylesheet" href="./css/style-desktop.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -24,10 +25,10 @@
     <div class="menu-desktop">
 
       <a href="#">Home</a>
-      <a href="#">Sobre o app</a>
-      <a href="#">Animais disponíveis</a>
-      <a href="#">Sobre a FindFriend</a>
-      <a href="#">contato</a>
+      <a href="#app">Sobre o app</a>
+      <a href="#animais_disponiveis">Animais disponíveis</a>
+      <a href="#sobre">Sobre a FindFriend</a>
+      <a href="#contato">contato</a>
 
     </div>
 
@@ -39,10 +40,10 @@
   <div class="menu-drop hide">
     <nav>
       <a href="#">Home</a>
-      <a href="#">Sobre o app</a>
-      <a href="#">Animais disponíveis</a>
-      <a href="#">Sobre a FindFriend</a>
-      <a href="#">contato</a>
+      <a href="#app">Sobre o app</a>
+      <a href="#animais_disponiveis">Animais disponíveis</a>
+      <a href="#sobre">Sobre a FindFriend</a>
+      <a href="#contato">contato</a>
     </nav>
 
   </div>
@@ -73,7 +74,7 @@
 
     </div>
 
-    <div class="second-content">
+    <div class="second-content" id="app">
       <h2 class="second-title">Um app não, uma caixinha de amigos...</h2>
 
       <div class="second-textBox">
@@ -112,44 +113,84 @@
       </div>
     </div>
 
-    <div class="aLotOfFriends">
+    <div class="aLotOfFriends" id="animais_disponiveis">
       <div class="aLotOfFriends-content">
-        <h2>Há muitos amigos<br> esperando por você!</h2>
-        <p>O FiendAFriend conecta pessoas que estão procurando por um animal de estimação com animais que precisam de um
-          lar amoroso. É fácil de usar e você pode navegar por uma variedade de animais para encontrar aquele que melhor
-          se adapta ao seu estilo de vida e necessidades.</p>
-        <button>Acesse agora</button>
-        <div class="image-friends">
-          <img src="./assets/cat-hamilton.svg" alt="">
-          <span>Hamilton</span>
+        <div class="aLotOfFriends-text">
+          <h2>Há muitos amigos <br /> esperando por você!</h2>
+          <p>O FiendAFriend conecta pessoas que estão procurando por um animal de estimação com animais que precisam de
+            um
+            lar amoroso. É fácil de usar e você pode navegar por uma variedade de animais para encontrar aquele que
+            melhor
+            se adapta ao seu estilo de vida e necessidades.</p>
+        </div>
+        <div class="aLotOfFriends-buttonAndCarrossel">
+          <button>Acesse agora</button>
+
+                <div class="image-friends">
+                  <img src="./assets/cat-hamilton.svg" alt="">
+                  <span>Hamilton</span>
+                </div>
+              </div>
+              
         </div>
       </div>
     </div>
 
-    <div class="about">
+    <div class="about" id="sobre">
       <div class="about-content">
-        <h2>Sobre<br> a FindAFriend</h2>
+        <div class="about-title">
+          <h2 class="about-titleMobile">Sobre<br> a FindAFriend</h2>
+          <h2 class="about-titleDesktop">Sobre a<br> FindAFriend</h2>
+        </div>
+
         <p class="about-text">A FindAFriend acredita que todo bichinho merece uma vida confortável e segura. Por isso,
           cria soluções que
           ajudam ONGs e entidades protetoras a conectar pessoas adotantes e animais resgatados. </p>
       </div>
 
-      <div class="about-image">
-        <img src="./assets/person-hamilton.svg" alt="">
+      <div class="about-person">
 
-        <div class="about-imageDescription">
-          <p>Hamilton Freire</p>
-          <span>Fundador</span>
+        <div class="about-image ">
+          <img src="./assets/person-hamilton.svg" alt="">
+          <div class="about-imageDescription">
+            <p>Hamilton Freire</p>
+            <span>Fundador</span>
+          </div>
         </div>
+
+        <div class="about-image about-hide">
+          <img src="./assets/person-lara.svg" alt="">
+          <div class="about-imageDescription">
+            <p>Lara Valencia</p>
+            <span>Fundador</span>
+          </div>
+        </div>
+
+        <div class="about-image about-hide">
+          <img src="./assets/person-aline.svg" alt="">
+          <div class="about-imageDescription">
+            <p>Aline Alana</p>
+            <span>UI/UX Designer</span>
+          </div>
+        </div>
+
+        <div class="about-image about-hide">
+          <img src="./assets/person-tadeu.svg" alt="">
+          <div class="about-imageDescription">
+            <p>tadeu Bastos</p>
+            <span>Full stack developer</span>
+          </div>
+        </div>
+
       </div>
     </div>
 
-    <div class="contact">
+    <div class="contact" id="contato">
       <img class="contact-imageFrame" src="./assets/frame-contact.svg" alt="">
       <div class="contact-info">
         <h3>Entre <br> em contato <br> conosco</h3>
         <a href=""><img src="./assets/letter.svg" alt="">Clique aqui e envie um email</a>
-      </div>  
+      </div>
     </div>
 
     <footer>
@@ -162,6 +203,7 @@
 
   </main>
   <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </body>
 
 </html>

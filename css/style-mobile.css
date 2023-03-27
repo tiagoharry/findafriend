@@ -310,6 +310,8 @@ h1 {
 
 .about-content {
   width: 320px;
+  display: grid;
+  justify-content: left;
 }
 
 .about-content h2 {
@@ -322,6 +324,10 @@ h1 {
   margin-bottom: 20px;
 }
 
+.about-titleDesktop {
+  display: none;
+}
+
 .about-text {
   text-align: left;
   font-size: 20px;
@@ -329,6 +335,11 @@ h1 {
   font-family: 'Nunito', sans-serif;
   color: #0D3B66;
   margin-bottom: 60px;
+}
+
+.about-person {
+  display: grid;
+  gap: 12px;
 }
 
 .about-image {
@@ -389,7 +400,6 @@ h1 {
 
 .contact h3 {
   margin-top: 90px;
-  
   font-weight: 700;
   font-size: 30px;
   line-height: 110%;
